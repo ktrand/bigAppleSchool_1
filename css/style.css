@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+h5{
+    margin: 0px;
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    height: 232px;
+    /*left: calc(50% - 620px/2 + 240px);*/
+    /*top: 1338px;*/
+    padding: 26px 0px 32px 39px;
+    background: #E7832B;
+    border-radius: 12px;
+    gap: 7px;
+    overflow-y: hidden;
+}
+.frame{
+    width: 341px;
+    height: 232px;
+}
+.title{
+    width: 100%;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.text{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 7px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+button{
+    height: 52px;
+    width: 100%;
+    background: #FAB42A;
+    border: none;
+    border-radius: 4px;
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+    cursor: pointer;
+}
+.picture{
+    width: 214px;
+    height: 239px;
+    margin-top: 42px;
+    margin-left: 50px;
+}
+
+.black{
+    color: black;
+}
+
+@media (min-width:375px) and (max-width:1024px) {
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 348px;
+        height: 505px;
+        padding: 0px;
+    }
+    .frame{
+        width: 307px;
+        height: 242px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 34px 23px 20px 18px;
+
+    }
+    .picture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    img{
+        width: 196px;
+    }
+}
